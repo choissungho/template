@@ -1,0 +1,22 @@
+/* 03_1css.html */
+
+body{
+    background-color: bisque;
+    }
+
+h2{
+    color: aqua;
+    }
+
+p{
+    font-size: 30px;
+}
+
+
+/* 03_2css.html */
+.no1{
+    background-color:rgb(255, 99, 71);
+}
+.no2{
+    background-color:#ff6347;
+}

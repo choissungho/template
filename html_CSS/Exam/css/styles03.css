@@ -1,23 +1,47 @@
-    /* 03_3css.html */
-    
-    body{
-        background-image: url("../images/img_tree.png");
-        background-repeat: no-repeat;
-        background-position: right top;
-        }
+/* 03_4css.html */
 
-    .no1{
-        background-color:DodgerBlue;
-    }
-    .no2{
-        color:MediumSeaGreen;
-    }
-    .no3{
-        background-repeat: no-repeat;
-        background-image: url("../images/img_tree.png");
-        border:2px solid Violet;
-    }
-    .no4{
-        background-color:#ff6347;
-    }
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
 
+p.four {
+    text-align: center;
+    border-bottom: 6px dotted red;
+    border-width: thick;
+}
+
+p.five {
+    border: 2px double red;
+    border-radius: 5px;
+}
+
+p.seven {
+    border: 5px solid red;
+    border-width: 2px 10px 4px 20px;
+}
+
+
+/* 03_5css.html */
+h2.no1 {
+    text-align: center;
+    margin: 20px 0 0 50px;
+    border: solid
+}
+
+div.no2 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+/* 03_6css.html */
+div.no3{
+    background-color:black;color:white;padding:20px;
+
+}
+span.no4{
+    color:red;
+}

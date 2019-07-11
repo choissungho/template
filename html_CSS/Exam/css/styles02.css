@@ -1,22 +1,22 @@
-/* 03_1css.html */
+    /* 03_3css.html */
+    
+    body{
+        background-image: url("../images/img_tree.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        }
 
-body{
-    background-color: bisque;
+    .no1{
+        background-color:DodgerBlue;
     }
-
-h2{
-    color: aqua;
+    .no2{
+        color:MediumSeaGreen;
     }
-
-p{
-    font-size: 30px;
-}
-
-
-/* 03_2css.html */
-.no1{
-    background-color:rgb(255, 99, 71);
-}
-.no2{
-    background-color:#ff6347;
-}
+    .no3{
+        background-repeat: no-repeat;
+        background-image: url("../images/img_tree.png");
+        border:2px solid Violet;
+    }
+    .no4{
+        background-color:#ff6347;
+    }
