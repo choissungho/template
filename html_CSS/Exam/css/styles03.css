@@ -1,0 +1,21 @@
+    body{
+        background-image: url("../images/img_tree.png");
+        background-repeat: no-repeat;
+        background-position: right top;
+        }
+
+    .no1{
+        background-color:DodgerBlue;
+    }
+    .no2{
+        color:MediumSeaGreen;
+    }
+    .no3{
+        background-repeat: no-repeat;
+        background-image: url("../images/img_tree.png");
+        border:2px solid Violet;
+    }
+    .no4{
+        background-color:#ff6347;
+    }
+
