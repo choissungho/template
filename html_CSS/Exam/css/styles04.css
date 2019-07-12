@@ -1,0 +1,47 @@
+/* 04_1css.html */
+
+table{
+    border-collapse: collapse; width: 100%;
+    }
+th, td{
+    text-align: left;
+    padding: 8px;vertical-align: middle;
+    }
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    }
+
+th{background-color: #4CAF50;
+    color: white;
+    }
+
+tr:hover{
+    background-color:yellow;
+    }
+
+
+/* 04_2css.html */
+
+.nono{
+    border: 3px solid #4CAF50;
+    padding: 5px;
+    height: 170px;
+        }
+
+.img2 {
+    float: right;
+        }
+
+.nono1 {width: 300px; height: 200px;
+    border: 1px dotted black;
+    overflow: scroll;
+    }
+
+/* 04_3css.html */
+
+* { box-sizing: border-box; }
+.img-container { float: left; 
+width: 25%;
+padding: 5px;
+}

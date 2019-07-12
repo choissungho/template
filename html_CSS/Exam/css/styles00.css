@@ -3,8 +3,11 @@ div.no0{
     border-radius: 4px;
     background-color: green;
 }
-
+h1.no1 a{
+    text-decoration: none;}
+    
 h1.no1{
+    
     margin: 0;
     color: white;
 }
@@ -27,3 +30,30 @@ li{
     font-size: 20px;
     margin: 5px;
 }
+
+table{
+    border-collapse: collapse; width: 100%;
+    }
+th, td{
+    text-align: left;
+    padding: 8px;vertical-align: middle;
+    }
+
+tr:nth-child(even){
+        background-color: #f2f2f2;
+        }
+
+th{background-color: #4CAF50;
+    color: white;
+        }
+        
+tr:hover{
+        background-color:yellow;
+            }
+
+.side{
+    border-radius: 4px;
+    background-color: skyblue;
+    color: white;
+}
+
