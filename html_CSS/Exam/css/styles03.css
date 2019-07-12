@@ -45,3 +45,63 @@ div.no3{
 span.no4{
     color:red;
 }
+
+/* 03_7css.html */
+
+.no5{
+    width:"350";
+    height:"263";
+}
+
+div.no6{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.box{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+/* 03_8css.html */
+
+a.check:link { 
+    background-color: #f44336; color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    }
+a.check:visited { background-color: red; color: white;}
+a.check:hover { background-color: cyan; }
+a.check:active { background-color: green; }
+
+/* 03_9css.html */
+h1.text1 { text-decoration: overline; }
+h2.text2 { text-decoration: line-through; }
+h3.text3 { text-decoration: underline; }
+.para a { text-decoration: none; }
+
+
+/* 03_9css.html */
+p.ex1 { border: 3px solid yellow;
+    outline-style: solid;
+    outline-color: invert;
+    outline-width: 6px }
+
+
+/* 03_9css.html */
+ul {
+    list-style-type: none;
+     background: #3399ff;
+    padding: 20px;
+    }
+
+ ul li {
+    background: #cce5ff;
+    margin: 5px;
+    }
