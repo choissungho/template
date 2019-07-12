@@ -1,0 +1,26 @@
+
+/* sub3.css */
+
+.top{
+    overflow: hidden;
+    padding: 14px;
+}
+
+
+.top li{
+    background-color: green;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+.top li a{
+    text-decoration: none;
+}
+
+.top a:hover{
+    background-color: #ddd;
+    color: black;
+}

@@ -32,7 +32,9 @@ li{
 }
 
 table{
-    border-collapse: collapse; width: 100%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse; width: 50%;
     }
 th, td{
     text-align: left;
@@ -52,8 +54,35 @@ tr:hover{
             }
 
 .side{
+
     border-radius: 4px;
-    background-color: skyblue;
     color: white;
 }
 
+
+
+
+.row{
+    display:inline;
+   }
+
+
+.column{float: left;
+    padding: 10px;
+}
+
+.column.side{
+    float: left;
+    width: 25%;
+}
+
+.column.middle{
+     width: 50%;
+}
+
+
+.footer{
+    margin-top: 262px;
+    padding: 10px;
+    background-color: beige;
+}

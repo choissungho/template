@@ -42,6 +42,63 @@ tr:hover{
 
 * { box-sizing: border-box; }
 .img-container { float: left; 
-width: 25%;
+width: 15%;
 padding: 5px;
+}
+
+/* 04_4css.html */
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #f1f1f1;
+    padding: 20PX;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* 04_4css.html 2번째*/
+
+.topnav{
+    overflow: hidden;
+    background: #333;
+    padding: 14px;
+}
+.topnav a{
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+/* 04_5css.html */
+/* 글 배열을 왼쪽으로 하며 간격을 10px로 하며 사이드 선 굵기를 1px, 색상은 red로 한다. */
+.column{float: left;
+        padding: 10px;
+        border: 1px solid red;
+}
+/* 양 사이드의 넓이를 25%로 한다 */
+.column.side{
+       width: 25%;
+}
+/* 중앙의 넓이를 25%로 한다 */
+.column.middle{
+        width: 50%;
+}
+.row{
+    display:inline;
 }
