@@ -79,7 +79,6 @@ tr:hover {
     text-align: center;
     margin: 10px;
     width: 150px;
-    font-family: verdana;
     border: 1px solid #FF6C6C;
     
 }
@@ -90,18 +89,9 @@ tr:hover {
     font-weight: bold;
 }
 
-.menu li a:hover {
-    color: white;
-}
 
 .title3 {
-    font-family: verdana;
     color:#FF6C6C;
 
 }
 
-.click a {
-    text-decoration: none;
-    color: #FF6C6C;
-    font-family: verdana;
-}
