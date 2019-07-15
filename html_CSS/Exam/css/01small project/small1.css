@@ -1,6 +1,6 @@
 * {box-sizing: border-box}
 
-.header_bar {
+.header {
 width: 100%;
 background-color: green;
 border-radius: 6px;
@@ -8,15 +8,17 @@ padding-left: 10px;
 margin-bottom: 5px;
 }
 
-.header_bar, .main1, .side2 {
+.header, .main, .footer {
 display: inline-block;
 }
 .title {
+	
 color: white;
 margin: 0;
 }
 
-a.a_link {
+.a_link {
+	text-decoration: none;
 color: black;
 }
 
@@ -24,14 +26,15 @@ color: black;
 color: white;
 }
 
-.menu_bar {
+.left_menu {
+padding: 10px;
 float:left;
 width: 20%;
 }
 
-ul.menu_bar li {
+ul.left_menu li {
 list-style-type: none;
-font-size: 20px;
+font-size: 25px;
 font-weight: bold;
 width: 100%;
 background: whitesmoke;
@@ -40,13 +43,13 @@ margin: 5px 0;
 border-radius: 6px;
 }
 
-ul.menu_bar li a {
+ul.left_menu li a {
 text-decoration: none;
 color:black;
 }
 
-ul.menu_bar li.click_bar {
-background: lightgreen;
+ul.left_menu li.menu {
+background: #4CAF50;
 }
 
 
@@ -78,22 +81,23 @@ tr:hover {
 background-color: yellow;
 }
 
-.side1, .side2 {
+.side, .footer {
 padding: 10px;
 border-radius: 6px;
 }
-.side1 {
-width: 20%;
+.side {
+float: right;
+width: 15%;
 background-color: skyblue;
 height: 800px;
 }
 
-.side2 {
+.footer {
 width: 100%;
 background-color: lightgray;
 }
 
-.side_title, .side_content {
+.side_title, .side_text {
 color: white;
 }
 
@@ -119,15 +123,14 @@ color: black;
 
 
 .middle {
+float: left;
+padding: 10px;
 width: 60%;
 }
 
 
-.cols {
-float: left;
-padding: 10px;
-}
 
-.main1 {
+
+.main {
 margin-bottom: 5px;
 }
